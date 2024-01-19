@@ -617,4 +617,37 @@ img {
   height: 584px;
   background-color: #fcfcfc;
   border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button-close {
+  border: none;
+  border-radius: 9999px;
+  background-color: #e7e9fc;
+  border: 1px rgba(0, 0, 0, 0.1) solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  margin-left: 360px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.button-close:hover {
+  background-color: #404bbf;
+  fill: #ffffff;
+}
+
+.modal-title {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-left: 24px;
+  margin-top: 24px;
 }
