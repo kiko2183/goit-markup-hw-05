@@ -555,10 +555,7 @@ img {
   border-radius: 4px;
   border: 1px white solid;
   background: transparent;
-}
 
-.end-input::placeholder {
-  color: white;
   font-size: 12px;
   font-family: Roboto;
   font-weight: 400;
