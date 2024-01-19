@@ -614,27 +614,34 @@ img {
 
 .modal {
   width: 408px;
-  height: 584px;
+  min-height: 584px;
   background-color: #fcfcfc;
   border-radius: 4px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-close {
   border: none;
-  border-radius: 9999px;
+  border-radius: 50%;
   background-color: #e7e9fc;
   border: 1px rgba(0, 0, 0, 0.1) solid;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8px;
-  margin-left: 360px;
-  margin-top: 24px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
   cursor: pointer;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-close:hover {
