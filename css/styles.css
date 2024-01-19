@@ -585,7 +585,7 @@ img {
   color: #ffffff;
 }
 
-.end-input::placeholder {
+::placeholder {
   color: #ffffff;
 }
 
