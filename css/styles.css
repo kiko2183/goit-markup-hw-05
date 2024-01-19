@@ -561,6 +561,7 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
   padding-left: 16px;
+  color: #ffffff;
 }
 
 .footer-button {
@@ -582,10 +583,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ffffff;
 }
 
-::placeholder {
+.end-input::placeholder {
   color: #ffffff;
 }
 
