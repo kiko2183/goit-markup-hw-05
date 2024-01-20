@@ -756,7 +756,19 @@ img {
   letter-spacing: 0.04em;
 }
 
-.policy-text > a {
+.policy-text a {
   color: #4d5ae5;
   text-decoration: underline;
+}
+
+.policy-text span {
+  height: 16px;
+  width: 16px;
+  border-radius: 2px;
+  border: 1px rgba(46, 47, 66, 0.4) solid;
+  margin-right: 8px;
+  display: inline-flex;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  align-items: center;
+  justify-content: center;
 }
