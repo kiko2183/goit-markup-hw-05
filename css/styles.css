@@ -679,7 +679,6 @@ img {
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  margin-bottom: ;
 }
 
 .modal-input {
@@ -687,4 +686,13 @@ img {
   border-radius: 4px;
   width: 100%;
   height: 40px;
+  margin-bottom: 8px;
+}
+
+.modal-name-label {
+  margin-top: 16px;
+}
+
+.modal-input {
+  margin-top: 4px;
 }
