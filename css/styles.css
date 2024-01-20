@@ -621,8 +621,10 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 
 .button-close {
@@ -647,6 +649,13 @@ img {
 .button-close:hover {
   background-color: #404bbf;
   fill: #ffffff;
+  border: none;
+}
+
+.button-close:active {
+  background-color: #404bbf;
+  fill: #ffffff;
+  border: none;
 }
 
 .modal-title {
@@ -655,6 +664,27 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-left: 24px;
-  margin-top: 24px;
+  text-align: center;
+}
+
+.modal-close {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-label {
+  display: block;
+  color: #8e8f99;
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  margin-bottom: ;
+}
+
+.modal-input {
+  border: 1px rgba(46, 47, 66, 0.4) solid;
+  border-radius: 4px;
+  width: 100%;
+  height: 40px;
 }
