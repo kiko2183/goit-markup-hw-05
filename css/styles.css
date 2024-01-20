@@ -695,6 +695,7 @@ img {
 }
 
 .modal-input:hover,
+.modal-input:focus,
 .modal-input:focus + .label-pole-svg {
   border-color: #4d5ae5;
   fill: #4d5ae5;
