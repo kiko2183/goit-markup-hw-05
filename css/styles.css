@@ -695,8 +695,9 @@ img {
 }
 
 .modal-input:hover,
-.modal-input:focus {
+.modal-input:focus + .label-pole-svg {
   border-color: #4d5ae5;
+  fill: #4d5ae5;
 }
 
 .personaldata {
@@ -713,8 +714,4 @@ img {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-input:focus > .label-pole-svg {
-  fill: #4d5ae5;
 }
